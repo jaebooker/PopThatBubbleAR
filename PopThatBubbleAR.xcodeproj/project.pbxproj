@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD423FF23A18D5B00AAD9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD423FE23A18D5B00AAD9DB /* AppDelegate.swift */; };
+		0DD4240123A18D5B00AAD9DB /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4240023A18D5B00AAD9DB /* Scene.sks */; };
+		0DD4240323A18D5B00AAD9DB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4240223A18D5B00AAD9DB /* Scene.swift */; };
+		0DD4240523A18D5B00AAD9DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4240423A18D5B00AAD9DB /* ViewController.swift */; };
+		0DD4240823A18D5B00AAD9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4240623A18D5B00AAD9DB /* Main.storyboard */; };
+		0DD4240A23A18D5F00AAD9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4240923A18D5F00AAD9DB /* Assets.xcassets */; };
+		0DD4240D23A18D5F00AAD9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4240B23A18D5F00AAD9DB /* LaunchScreen.storyboard */; };
+		0DD4241823A18D5F00AAD9DB /* PopThatBubbleARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4241723A18D5F00AAD9DB /* PopThatBubbleARTests.swift */; };
+		0DD4242323A18D5F00AAD9DB /* PopThatBubbleARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4242223A18D5F00AAD9DB /* PopThatBubbleARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD4241423A18D5F00AAD9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD423F323A18D5B00AAD9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD423FA23A18D5B00AAD9DB;
+			remoteInfo = PopThatBubbleAR;
+		};
+		0DD4241F23A18D5F00AAD9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD423F323A18D5B00AAD9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD423FA23A18D5B00AAD9DB;
+			remoteInfo = PopThatBubbleAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD423FB23A18D5B00AAD9DB /* PopThatBubbleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopThatBubbleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD423FE23A18D5B00AAD9DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DD4240023A18D5B00AAD9DB /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		0DD4240223A18D5B00AAD9DB /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		0DD4240423A18D5B00AAD9DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DD4240723A18D5B00AAD9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DD4240923A18D5F00AAD9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DD4240C23A18D5F00AAD9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DD4240E23A18D5F00AAD9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD4241323A18D5F00AAD9DB /* PopThatBubbleARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopThatBubbleARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD4241723A18D5F00AAD9DB /* PopThatBubbleARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopThatBubbleARTests.swift; sourceTree = "<group>"; };
+		0DD4241923A18D5F00AAD9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD4241E23A18D5F00AAD9DB /* PopThatBubbleARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopThatBubbleARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD4242223A18D5F00AAD9DB /* PopThatBubbleARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopThatBubbleARUITests.swift; sourceTree = "<group>"; };
+		0DD4242423A18D5F00AAD9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD423F823A18D5B00AAD9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4241023A18D5F00AAD9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4241B23A18D5F00AAD9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD423F223A18D5B00AAD9DB = {
+			isa = PBXGroup;
+			children = (
+				0DD423FD23A18D5B00AAD9DB /* PopThatBubbleAR */,
+				0DD4241623A18D5F00AAD9DB /* PopThatBubbleARTests */,
+				0DD4242123A18D5F00AAD9DB /* PopThatBubbleARUITests */,
+				0DD423FC23A18D5B00AAD9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD423FC23A18D5B00AAD9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD423FB23A18D5B00AAD9DB /* PopThatBubbleAR.app */,
+				0DD4241323A18D5F00AAD9DB /* PopThatBubbleARTests.xctest */,
+				0DD4241E23A18D5F00AAD9DB /* PopThatBubbleARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD423FD23A18D5B00AAD9DB /* PopThatBubbleAR */ = {
+			isa = PBXGroup;
+			children = (
+				0DD423FE23A18D5B00AAD9DB /* AppDelegate.swift */,
+				0DD4240023A18D5B00AAD9DB /* Scene.sks */,
+				0DD4240223A18D5B00AAD9DB /* Scene.swift */,
+				0DD4240423A18D5B00AAD9DB /* ViewController.swift */,
+				0DD4240623A18D5B00AAD9DB /* Main.storyboard */,
+				0DD4240923A18D5F00AAD9DB /* Assets.xcassets */,
+				0DD4240B23A18D5F00AAD9DB /* LaunchScreen.storyboard */,
+				0DD4240E23A18D5F00AAD9DB /* Info.plist */,
+			);
+			path = PopThatBubbleAR;
+			sourceTree = "<group>";
+		};
+		0DD4241623A18D5F00AAD9DB /* PopThatBubbleARTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4241723A18D5F00AAD9DB /* PopThatBubbleARTests.swift */,
+				0DD4241923A18D5F00AAD9DB /* Info.plist */,
+			);
+			path = PopThatBubbleARTests;
+			sourceTree = "<group>";
+		};
+		0DD4242123A18D5F00AAD9DB /* PopThatBubbleARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4242223A18D5F00AAD9DB /* PopThatBubbleARUITests.swift */,
+				0DD4242423A18D5F00AAD9DB /* Info.plist */,
+			);
+			path = PopThatBubbleARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD423FA23A18D5B00AAD9DB /* PopThatBubbleAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4242723A18D5F00AAD9DB /* Build configuration list for PBXNativeTarget "PopThatBubbleAR" */;
+			buildPhases = (
+				0DD423F723A18D5B00AAD9DB /* Sources */,
+				0DD423F823A18D5B00AAD9DB /* Frameworks */,
+				0DD423F923A18D5B00AAD9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopThatBubbleAR;
+			productName = PopThatBubbleAR;
+			productReference = 0DD423FB23A18D5B00AAD9DB /* PopThatBubbleAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD4241223A18D5F00AAD9DB /* PopThatBubbleARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4242A23A18D5F00AAD9DB /* Build configuration list for PBXNativeTarget "PopThatBubbleARTests" */;
+			buildPhases = (
+				0DD4240F23A18D5F00AAD9DB /* Sources */,
+				0DD4241023A18D5F00AAD9DB /* Frameworks */,
+				0DD4241123A18D5F00AAD9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD4241523A18D5F00AAD9DB /* PBXTargetDependency */,
+			);
+			name = PopThatBubbleARTests;
+			productName = PopThatBubbleARTests;
+			productReference = 0DD4241323A18D5F00AAD9DB /* PopThatBubbleARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DD4241D23A18D5F00AAD9DB /* PopThatBubbleARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4242D23A18D5F00AAD9DB /* Build configuration list for PBXNativeTarget "PopThatBubbleARUITests" */;
+			buildPhases = (
+				0DD4241A23A18D5F00AAD9DB /* Sources */,
+				0DD4241B23A18D5F00AAD9DB /* Frameworks */,
+				0DD4241C23A18D5F00AAD9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD4242023A18D5F00AAD9DB /* PBXTargetDependency */,
+			);
+			name = PopThatBubbleARUITests;
+			productName = PopThatBubbleARUITests;
+			productReference = 0DD4241E23A18D5F00AAD9DB /* PopThatBubbleARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD423F323A18D5B00AAD9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jaeson Booker";
+				TargetAttributes = {
+					0DD423FA23A18D5B00AAD9DB = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					0DD4241223A18D5F00AAD9DB = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 0DD423FA23A18D5B00AAD9DB;
+					};
+					0DD4241D23A18D5F00AAD9DB = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 0DD423FA23A18D5B00AAD9DB;
+					};
+				};
+			};
+			buildConfigurationList = 0DD423F623A18D5B00AAD9DB /* Build configuration list for PBXProject "PopThatBubbleAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DD423F223A18D5B00AAD9DB;
+			productRefGroup = 0DD423FC23A18D5B00AAD9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD423FA23A18D5B00AAD9DB /* PopThatBubbleAR */,
+				0DD4241223A18D5F00AAD9DB /* PopThatBubbleARTests */,
+				0DD4241D23A18D5F00AAD9DB /* PopThatBubbleARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD423F923A18D5B00AAD9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4240123A18D5B00AAD9DB /* Scene.sks in Resources */,
+				0DD4240D23A18D5F00AAD9DB /* LaunchScreen.storyboard in Resources */,
+				0DD4240A23A18D5F00AAD9DB /* Assets.xcassets in Resources */,
+				0DD4240823A18D5B00AAD9DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4241123A18D5F00AAD9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4241C23A18D5F00AAD9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD423F723A18D5B00AAD9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4240523A18D5B00AAD9DB /* ViewController.swift in Sources */,
+				0DD4240323A18D5B00AAD9DB /* Scene.swift in Sources */,
+				0DD423FF23A18D5B00AAD9DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4240F23A18D5F00AAD9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4241823A18D5F00AAD9DB /* PopThatBubbleARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4241A23A18D5F00AAD9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4242323A18D5F00AAD9DB /* PopThatBubbleARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD4241523A18D5F00AAD9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD423FA23A18D5B00AAD9DB /* PopThatBubbleAR */;
+			targetProxy = 0DD4241423A18D5F00AAD9DB /* PBXContainerItemProxy */;
+		};
+		0DD4242023A18D5F00AAD9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD423FA23A18D5B00AAD9DB /* PopThatBubbleAR */;
+			targetProxy = 0DD4241F23A18D5F00AAD9DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DD4240623A18D5B00AAD9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD4240723A18D5B00AAD9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DD4240B23A18D5F00AAD9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD4240C23A18D5F00AAD9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DD4242523A18D5F00AAD9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DD4242623A18D5F00AAD9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD4242823A18D5F00AAD9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopThatBubbleAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.PopThatBubbleAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DD4242923A18D5F00AAD9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopThatBubbleAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.PopThatBubbleAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DD4242B23A18D5F00AAD9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopThatBubbleARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.PopThatBubbleARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopThatBubbleAR.app/PopThatBubbleAR";
+			};
+			name = Debug;
+		};
+		0DD4242C23A18D5F00AAD9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopThatBubbleARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.PopThatBubbleARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopThatBubbleAR.app/PopThatBubbleAR";
+			};
+			name = Release;
+		};
+		0DD4242E23A18D5F00AAD9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopThatBubbleARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.PopThatBubbleARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopThatBubbleAR;
+			};
+			name = Debug;
+		};
+		0DD4242F23A18D5F00AAD9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopThatBubbleARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.PopThatBubbleARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopThatBubbleAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD423F623A18D5B00AAD9DB /* Build configuration list for PBXProject "PopThatBubbleAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4242523A18D5F00AAD9DB /* Debug */,
+				0DD4242623A18D5F00AAD9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4242723A18D5F00AAD9DB /* Build configuration list for PBXNativeTarget "PopThatBubbleAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4242823A18D5F00AAD9DB /* Debug */,
+				0DD4242923A18D5F00AAD9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4242A23A18D5F00AAD9DB /* Build configuration list for PBXNativeTarget "PopThatBubbleARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4242B23A18D5F00AAD9DB /* Debug */,
+				0DD4242C23A18D5F00AAD9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4242D23A18D5F00AAD9DB /* Build configuration list for PBXNativeTarget "PopThatBubbleARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4242E23A18D5F00AAD9DB /* Debug */,
+				0DD4242F23A18D5F00AAD9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD423F323A18D5B00AAD9DB /* Project object */;
+}
